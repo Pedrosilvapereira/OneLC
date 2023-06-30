@@ -1,0 +1,85 @@
+.Flex_container{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+}
+#GenText1{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 600px;
+    line-height: 20px;
+    background-position-y: 0px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 500px;
+}
+header{
+    background-color: plum;
+    height: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+#Logo{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    justify-content: center;
+}
+.Title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: red;
+}
+body{
+    background-color: lightslategray;
+}
+footer{
+    background-color: yellow;
+    height: 50px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid; 
+    bottom: 0;
+    left: 0;
+}
+@media screen and (max-width: 360px) and (max-height: 900px){
+    body{
+        background-color: lightblue;
+    }
+    footer{
+        background-color: orangered;
+        height: 80px;
+        border-width: 1px;
+        border-color: black;
+        border-style: solid; 
+        bottom: 0;
+        left: 0;
+    }
+    #GenText{
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        background-color: plum;
+        height: 40px;
+        width: 360px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+    }
+}
